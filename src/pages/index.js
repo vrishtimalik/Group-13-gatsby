@@ -1,9 +1,13 @@
 import React from "react"
 
-export default function Home() {
-  return (<div>
-  <div>home page</div>
-  <div>home page</div> 
-  </div>
+const Index = () => {
+  return (
+    <div>
+      <div className="card shadow m-3 p-2 text-primary">TEST</div>
+
+      <div className="btn btn-warning">OK</div>
+    </div>
   )
-  }
+}
+
+export default Index

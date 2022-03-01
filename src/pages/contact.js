@@ -1,9 +1,7 @@
 import React from "react"
 
-export default function Home() {
-  return (<div>
-  <div>contact page</div>
-  <div>contact page</div> 
-  </div>
-  )
-  }
+const Contact = () => {
+  return (<div>Contact</div>)
+}
+
+export default Contact
