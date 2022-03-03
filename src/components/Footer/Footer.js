@@ -2,7 +2,7 @@ import React from "react"
 
 const Footer = () => {
   return (
-    <footer class="py-5">
+    <footer class="container py-5">
     <div class="row">
       <div class="col-2">
         <h5>Section</h5>
@@ -43,7 +43,7 @@ const Footer = () => {
           <p>Monthly digest of whats new and exciting from us.</p>
           <div class="d-flex w-100 gap-2">
             <label for="newsletter1" class="visually-hidden">Email address</label>
-            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address"/>
             <button class="btn btn-primary" type="button">Subscribe</button>
           </div>
         </form>
@@ -55,7 +55,7 @@ const Footer = () => {
       
     </div>
   </footer>
-  )
+    )
 }
 
 export default Footer
